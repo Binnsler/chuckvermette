@@ -24,12 +24,12 @@ textarea{
 
 a{
     text-decoration: none;
-    color: #EA5712;
+    color: #7AF4F2;
     cursor: pointer;
 }
 
 a:hover{
-    color: yellow;
+    color: #EA5712;
 }
 
 button{
@@ -37,7 +37,7 @@ button{
     color: #EAEADF;
     font-size: 15px;
     text-transform: uppercase;
-    padding: 15px 45px;
+    padding: 10px 40px;
     cursor: pointer;
     border: none;
 }
@@ -62,7 +62,7 @@ button:hover{
     position: relative;
 
     padding-top: 25px;
-    padding-bottom: 30px;
+    padding-bottom: 45px;
 }
 
 .splashText h1{
@@ -76,7 +76,7 @@ button:hover{
 .splashText p{
     font-size: 20px;
     font-weight: 300;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
     letter-spacing: 3px;
 }
 
@@ -89,8 +89,8 @@ button:hover{
     color: #0F0F0D;
     padding-top: 30px;
     padding-bottom: 4px;
-    font-size: 35px;
-    width: 95px;
+    font-size: 36px;
+    width: 97px;
     font-weight: 900;
     line-height: 28px;
     display: inline-block;
@@ -112,7 +112,7 @@ button:hover{
 .description div p{
     font-weight: 100;
     margin-left: 20px;
-    font-size: 18px;
+    font-size: 20px;
     text-align: inherit;
 }
 
@@ -122,7 +122,8 @@ button:hover{
 
 .projects{
     background-color: #212121;
-    padding: 20px;
+    color: #EAEADF;
+    padding: 40px;
     display: flex;
     align-items: center;
     flex-direction: column;
