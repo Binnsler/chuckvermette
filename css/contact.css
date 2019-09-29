@@ -39,19 +39,17 @@ textarea{
 }
 
 button{
-    background-color: #0F0F0D;
+    background-color: #9D1509;
     color: #EAEADF;
-    border: 1px solid #EAEADF;
-    font-size: 12px;
+    font-size: 15px;
     text-transform: uppercase;
-    padding: 15px 60px;
+    padding: 15px 45px;
     cursor: pointer;
 }
 
 button:hover{
     background-color: #EAEADF;
     color: #0F0F0D;
-    border: 1px solid #EAEADF;
 }
 
 form{
