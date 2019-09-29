@@ -43,8 +43,9 @@ button{
     color: #EAEADF;
     font-size: 15px;
     text-transform: uppercase;
-    padding: 15px 45px;
+    padding: 10px 40px;
     cursor: pointer;
+    border: none;
 }
 
 button:hover{
