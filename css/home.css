@@ -1,0 +1,171 @@
+*{
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #606060;
+    color: #EAEADF;
+}
+
+img{
+    width: 100%;
+}
+
+input,
+textarea{
+    margin-bottom: 10px;
+    padding: 2px 5px;
+}
+
+a{
+    text-decoration: none;
+    color: orange;
+    cursor: pointer;
+}
+
+a:hover{
+    color: yellow;
+}
+
+button{
+    background-color: #0F0F0D;
+    color: #EAEADF;
+    border: 1px solid #EAEADF;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #EAEADF;
+    color: #0F0F0D;
+    border: 1px solid #EAEADF;
+}
+
+.splash{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.splashText{
+    background-color: #0F0F0D;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+.splashText h1{
+    font-size: 42px;
+    position: absolute;
+    top: -28px;
+    left: 50%;
+    margin-left: -152px;
+}
+
+.splashText p{
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+.description{
+    padding: 40px;
+}
+
+.description h1{
+    background-color: #EAEADF;
+    color: #0F0F0D;
+    padding-top: 30px;
+    padding-bottom: 4px;
+    font-size: 32px;
+    width: 87px;
+    font-weight: 900;
+    line-height: 28px;
+    display: inline-block;
+}
+
+.description p{
+    font-size: 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.description div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.description div p{
+    font-weight: 100;
+    margin-left: 20px;
+    font-size: 17px;
+    text-align: inherit;
+}
+
+.description{
+    background-color: #212121;
+}
+
+.projects{
+    background-color: #212121;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projects h1{
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.projects p{
+    padding: 20px 0;
+}
+
+.skills{
+    background-color: #212121;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills h1{
+    font-size: 35px;
+    padding-bottom: 30px;
+    font-weight: 500;
+}
+
+.skills ul{
+    padding-bottom: 20px;
+}
+
+.skills li{
+    font-size: 18px;
+    font-weight: 300;
+    padding-bottom: 10px;
+    text-decoration: inherit;
+}
+
+@media screen and (min-width: 800px) {
+    body{
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
