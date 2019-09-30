@@ -68,9 +68,8 @@ button:hover{
 .splashText h1{
     font-size: 44px;
     position: absolute;
-    top: -30px;
-    left: 50%;
-    margin-left: -159px;
+    top: -4vh;
+    margin: 0 auto;
 }
 
 .splashText p{
@@ -163,9 +162,26 @@ button:hover{
     text-decoration: inherit;
 }
 
-@media screen and (min-width: 800px) {
-    body{
-        max-width: 600px;
-        margin: 0 auto;
+@media screen and (min-width: 760px) {
+    p,
+    li{
+        font-size: 25px !important;
+    }
+
+    h1{
+        font-size: 60px !important;
+    }
+
+    .splashText{
+        padding-top: 40px;
+    }
+
+    .description h1{
+        width: 160px;
+        line-height: 50px;
+    }
+
+    .description p{
+        text-align: left;
     }
 }
