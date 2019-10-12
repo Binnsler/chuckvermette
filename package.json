@@ -4,7 +4,7 @@
   "description": "A simple HTML profile site for Chuck Vermette",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js",
+    "dev": "env-cmd ./config/dev.env nodemon index.js",
     "start": "node index.js"
   },
   "author": "Jamei Binns",
@@ -12,5 +12,8 @@
   "dependencies": {
     "express": "^4.16.4",
     "nodemailer": "^6.3.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.0.1"
   }
 }

@@ -4,14 +4,14 @@ const sendMail = ( requestBody ) => {
     var transporter = nodemailer.createTransport( {
         "service": "gmail",
         "auth": {
-            "user": "jamie.m.binns@gmail.com",
-            "pass": "TinyStudio1!"
+            "user": process.env.FROM_EMAIL,
+            "pass": process.env.FROM_PW
         }
     } );
 
     var mailOptions = {
-        "from": "jamie.m.binns@gmail.com",
-        "to": "cavermette@gmail.com",
+        "from": process.env.FROM_EMAIL,
+        "to": process.env.TO_EMAIL,
         "subject": requestBody.subject,
         "text": requestBody.message
     };
