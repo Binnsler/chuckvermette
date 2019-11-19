@@ -4,6 +4,7 @@ const path = require( "path" );
 const server = express();
 const router = new express.Router();
 const port = process.env.PORT || 3000;
+const sendMail = require( "./helpers/sendMail.js" );
 
 server.use( express.urlencoded() )
 

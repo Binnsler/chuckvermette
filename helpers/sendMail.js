@@ -16,6 +16,9 @@ const sendMail = ( requestBody ) => {
         "text": requestBody.message
     };
 
+    console.log( process.env.FROM_EMAIL );
+    console.log( process.env.FROM_PW );
+
     return transporter.sendMail( mailOptions );
 };
 

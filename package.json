@@ -10,10 +10,9 @@
   "author": "Jamei Binns",
   "license": "ISC",
   "dependencies": {
+    "env-cmd": "^8.0.2",
     "express": "^4.16.4",
     "nodemailer": "^6.3.0"
   },
-  "devDependencies": {
-    "env-cmd": "^10.0.1"
-  }
+  "devDependencies": {}
 }

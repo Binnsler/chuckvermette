@@ -8,7 +8,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #606060;
+    background-color: #000000;
     color: #EAEADF;
 }
 
@@ -51,6 +51,13 @@ button:hover{
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: #0F0F0D;
+}
+
+.error{
+    background-color: #9D1509;
+    color: #EAEADF;
+    padding: 10px 40px;
 }
 
 .splashText{
@@ -119,6 +126,11 @@ button:hover{
     background-color: #212121;
 }
 
+.imageContainer{
+    display: flex;
+    flex-direction: column;
+}
+
 .projects{
     background-color: #212121;
     color: #EAEADF;
@@ -172,12 +184,27 @@ button:hover{
         font-size: 60px !important;
     }
 
+    img{
+        width: 50%;
+        display: inline;
+        align-self: center;
+    }
+
+    .splash{
+        flex-direction: row;
+    }
+
     .splashText{
+        width: 50%;
         padding-top: 40px;
     }
 
     .description h1{
         width: 163px;
         line-height: 50px;
+    }
+
+    .imageContainer{
+        flex-direction: row;
     }
 }
